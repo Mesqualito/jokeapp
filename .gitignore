@@ -18,10 +18,14 @@
 *.ipr
 /out/
 
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+node_modules
+atlassian-ide-plugin.xml
+/.project
+test/temp/
+/docs
+*debug.log*
+.vscode
+.DS_Store
+/.jhipster
+yarn-error.log
+*.sw?
