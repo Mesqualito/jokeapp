@@ -18,6 +18,6 @@ class JokeServiceImpl implements JokeService {
 
     @Override
     String getJoke(){
-        return chuckNorrisQuotes.randomQuote()
+        return chuckNorrisQuotes.getRandomQuote()
     }
 }
